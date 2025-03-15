@@ -98,11 +98,3 @@ If JDeveloper launches but crashes with memory errors, edit the `jdev.conf` file
 AddVMOption -Xmx1024M
 AddVMOption -XX:MaxPermSize=256M
 ```
-
-## Oracle APEX Connection
-
-When developing for Oracle APEX in JDeveloper, resolving JVM issues is crucial for seamless development. After fixing the JVM error, ensure your JDeveloper can connect to your APEX instance:
-
-1. Install the appropriate APEX plugin for JDeveloper
-2. Configure database connections properly
-3. Set up SQL Developer/JDeveloper for APEX development
